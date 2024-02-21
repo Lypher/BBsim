@@ -1,5 +1,11 @@
+import Competidores from "../Competidores/Competidores";
+
 function Simulator() {
-  return <h1>Hola</h1>;
+  return (
+    <div>
+      <Competidores />
+    </div>
+  );
 }
 
 export default Simulator;
